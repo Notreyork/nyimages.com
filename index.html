@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ny images™</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<header>
+		<ul>
+			<li>
+				<a href="/" class="site-title">www.ny-image.com</a>
+			</li>
+			<li>
+				<a href="https://notreyork.com">subscribe</a>
+			</li>
+			<li>
+				<a href="/">info</a>
+			</li>
+		</ul>
+	</header>
+
+	<main>
+
+		<section>
+
+			<label>Archive</label>
+
+			<ul>
+
+				<li>
+					<a href="#">Febuary 2023</a>
+				</li>
+
+				<li>
+					<a href="#">March 2023</a>
+				</li>
+
+			</ul>
+
+		</section>
+
+	</main>
+
+	<footer>
+
+	</footer>
+
+	<script   src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+
+	$("figure img").click(function(){		                                        
+		$(".overlay-img").attr("src",$(this).prop('src'));
+	    $(".overlay").show();
+	    $(".overlay-content").show();
+	});
+
+	$(".overlay, .overlay-img").click(function(){
+	    $(".overlay-img").attr("src", "");
+	    $(".overlay").hide();
+	    $(".overlay-content").hide();
+	});
+		
+	</script>
+
+</body>
+</html>
