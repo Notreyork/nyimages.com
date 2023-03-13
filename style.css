@@ -1,6 +1,6 @@
 * {
 	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	font-size: 11px;
+	font-size: 10px;
 	font-style: normal;
 	font-weight: 400;
 	padding: 0;
@@ -198,24 +198,10 @@ footer .copyright a:hover {
 }
 
 
-@media only screen and (max-width: 35rem) {
-
-	.overlay-content img {
-		width: 100%;
-
-	}
-
-}
-
 @media only screen and (max-width: 30rem) {
 
-	main {
-		width: 100%;
+	* {
+		font-size: 12px;
 	}
-
-	figure iframe {
-		height: 20rem;
-	}
-
 
 }
