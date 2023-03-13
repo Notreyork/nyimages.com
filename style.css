@@ -198,7 +198,7 @@ footer .copyright a:hover {
 }
 
 
-@media only screen and (max-width: 30rem) {
+@media only screen and (max-width: 40rem) {
 
 	* {
 		font-size: 12px;
